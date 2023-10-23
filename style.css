@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #B4E051;
+   /* Helle Limettengrün-Hintergrundfarbe */
+    color: #333;
+   /* Textfarbe */
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #66BB22;
+   /* Dunkelgrüner Kopfbereich */
+    color: #fff;
+   /* Kopftextfarbe */
+    padding: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #333;
+}
+nav {
+    background-color: #6CA423;
+   /* Navigationshintergrundfarbe */
+    padding: 10px 0;
+}
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+div {
+    padding: 10px;
+   /* Verringerte Innenabstände für Textelemente */
+    background-color: #fff;
+   /* Weißer Inhaltsbereich */
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    display: flex;
+}
+.homepageimage {
+    max-width: 100%;
+   /* Keep the image within the container */
+    border-radius: 50px;
+}
+.content {
+    flex: 1;
+   /* Allow the content to grow and fill the available space */
+}
+h3, h2 {
+    display: inline;
+}
+#right {
+    display: block;
+    right: 0;
+}
+h1, h2 {
+    color: #1E5B0F;
+   /* Dunklerer grüner Überschriften-Ton */
+}
+p {
+    text-align: justify;
+    line-height: 1.4;
+    text-indent: 20px;
+    margin: 10px 0;
+}
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #66BB22;
+   /* Fußzeilenhintergrundfarbe */
+    color: #fff;
+   /* Fußzeilentextfarbe */
+}
+/* Link-Stil */
+a {
+    color: #2980b9;
+   /* Blau für Links */
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+   /* Unterstrichene Links bei Hover */
+}
