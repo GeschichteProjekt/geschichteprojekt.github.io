@@ -1,3 +1,61 @@
-header {
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+h1 {
+    text-align: center;
     background-color: #B4E051;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    background-color: #B4E051;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    padding: 1px;
+}
+
+p {
+    padding: 10px;
+}
+
+ul li:nth-child(odd) {
+    background-color: #ececec;
+}
+
+ul li:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Add some spacing and borders to the list items */
+ul li {
+    margin: 5px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Adjust link styles */
+a {
+    color: #B4E051;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
