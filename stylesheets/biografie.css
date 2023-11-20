@@ -1,53 +1,49 @@
-/* style.css */
-
+/* Reset default styles and set a general font */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f3f3f3;
+    color: #333; /* Default text color */
 }
 
+/* Styling for main headings */
 h1 {
     text-align: center;
     background-color: #B4E051;
     color: #fff;
     padding: 20px;
     margin: 0;
+    border-bottom: 3px solid #82B541;
 }
 
+/* Styling for secondary headings */
 h2 {
     background-color: #B4E051;
     color: #fff;
     padding: 10px;
     margin: 0;
+ 
 }
 
+/* Style the unordered list */
 ul {
     list-style: none;
     padding: 0;
 }
 
+/* Style list items */
 ul li {
-    padding: 1px;
-}
-
-p {
     padding: 10px;
-}
-
-ul li:nth-child(odd) {
-    background-color: #ececec;
-}
-
-ul li:nth-child(even) {
-    background-color: #f9f9f9;
-}
-
-/* Add some spacing and borders to the list items */
-ul li {
     margin: 5px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
+    background-color: #f9f9f9; /* Default background color for list items */
+}
+
+/* Alternate background colors for list items */
+ul li:nth-child(odd) {
+    background-color: #ffffff;
 }
 
 /* Adjust link styles */
@@ -59,3 +55,4 @@ a {
 a:hover {
     text-decoration: underline;
 }
+

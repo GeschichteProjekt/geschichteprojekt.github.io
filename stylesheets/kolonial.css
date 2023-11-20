@@ -1,0 +1,49 @@
+/* Globale Stile */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333; /* Default text color */
+}
+
+h1 {
+    text-align: center;
+    background-color: #B4E051;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 3px solid #82B541; /* Add a bottom border */
+}
+
+h2 {
+    background-color: #B4E051;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    border-radius: 50px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Stile für einzelne Abschnitte */
+.kolonisierung,
+.auswirkungen,
+.mau-mau {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 50px;
+}
+
+.hi {
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 50px;
+}
+

@@ -1,0 +1,56 @@
+/* green.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    background-color: #B4E051;
+    color: #fff;
+    padding: 20px;
+    margin: 0;
+}
+
+h2 {
+    background-color: #B4E051;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+
+h3 {
+    text
+}
+
+p {
+    padding: 10px;
+}
+
+.info {
+    width: 80%;
+    margin: 20px auto;
+    
+}
+
+.WomenPlantingTrees {
+    height: 50%;
+}
+
+.subsection {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    display: flex;
+    
+}
+
+.centerheading {
+    text-align: center;
+}

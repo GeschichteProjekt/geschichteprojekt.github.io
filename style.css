@@ -58,6 +58,7 @@ div {
 }
 h3, h2 {
     display: inline;
+    color: black;
 }
 #right {
     display: block;
@@ -83,7 +84,7 @@ footer {
 }
 /* Link-Stil */
 a {
-    color: #2980b9;
+    color: #af7676;
    /* Blau für Links */
     text-decoration: none;
 }
