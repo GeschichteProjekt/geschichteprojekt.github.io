@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* White background color */
+    color: #333; /* Default text color */
+}
+
+header {
+    text-align: center;
+    background-color: #B4E051; /* Green header background color */
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    background-color: #B4E051; /* Darker green section background color */
+    color: #ffffff; /* White text color for section headings */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#heading {
+    color: #ffffff;
+}
