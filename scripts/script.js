@@ -23,10 +23,10 @@ let RightText = OptionTexts[2];
 
 // RightAnswer Mandatory
 class Quiz {
-    constructor(QuizTitle = "Default", LeftHeading = "Default",
+    constructor(RightAnswer, QuizTitle = "Default", LeftHeading = "Default",
                 CenterHeading = "Default", RightHeading = "Default",
                 LeftText = "Default", CenterText = "Default",
-                RightText = "Default", RightAnswer) {
+                RightText = "Default") {
                     this.QuizTitle = QuizTitle;
                     this.LeftHeading = LeftHeading;
                     this.CenterHeading = CenterHeading;
@@ -38,14 +38,14 @@ class Quiz {
                 }
 
     ActivateQuiz() {
-        Title = this.QuizTitle;
-        LeftHeading = this.LeftHeading;
-        CenterHeading = this.CenterHeading;
-        RightHeading = this.RightHeading;
-        LeftText = this.LeftHeading;
-        CenterText = this.CenterHeading;
-        RightText = this.RightText
-        RightAnswer = this.RightAnswer
+        Title.textContent = this.QuizTitle;
+        LeftHeading.textContent = this.LeftHeading;
+        CenterHeading.textContent = this.CenterHeading;
+        RightHeading.textContent = this.RightHeading;
+        LeftText.textContent = this.LeftHeading;
+        CenterText.textContent = this.CenterHeading;
+        RightText.textContent = this.RightText
+        RightAnswer.textContent = this.RightAnswer
     }
     
     GetQuizInfo() {
@@ -61,11 +61,15 @@ class Quiz {
     }
 }
 
-let RightAnswer = OptionCenter;
+var RightAnswer = OptionCenter;
 let FalseAnswers = [];
 let TotalQuizCount = 2; //Ammount of Quizzes (up to 3)
 
 var CurrentQuiz;
+
+var FirstQuiz = new Quiz(OptionLeft, "Kenia war in den Jahren 1963 bis 2002 was?")
+
+FirstQuiz.ActivateQuiz()
 
 function RevealSolution() {
     RightAnswer.style.backgroundColor = "green";
