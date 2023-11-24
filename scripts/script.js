@@ -67,7 +67,21 @@ let TotalQuizCount = 2; //Ammount of Quizzes (up to 3)
 
 var CurrentQuiz;
 
-var FirstQuiz = new Quiz(OptionLeft, "Kenia war in den Jahren 1963 bis 2002 was?");
+//QUIZ AREA
+//QUIZ AREA
+//QUIZ AREA
+var FirstQuiz = new Quiz(OptionLeft,
+     "Kenia war in den Jahren 1963 bis 2002 was? (test)",
+     "Kolonalisiert (t)",
+     "Autokratisch",
+     "Demokratisch",
+     " (t) Die Britten regierten Kenia und holzten Wälder rasant ab, Christianiserten die Bevölkerung und zerstörten die Kultur von Einheimischen.",
+     "Kenia war in der Theorie ein Mehrparteienstaat, allerdings wurde Opposition unterdrückt, Wahlen fanden irregulär ab und Wahlbetrug war der standard.",
+     "Parteien setzten sich friedlich auseinander, formten Koalition und Korruption war niedrig.");
+
+//QUIZ AREA
+//QUIZ AREA
+//QUIZ AREA
 
 FirstQuiz.ActivateQuiz();
 
