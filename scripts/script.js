@@ -88,6 +88,7 @@ CurrentQuiz = FirstQuiz
 FirstQuiz.ActivateQuiz();
 
 function RevealSolution() {
+    console.log(CurrentQuiz.RightAnswer.style.backgroundColor)
     CurrentQuiz.RightAnswer.style.backgroundColor = "green";
     for (i = 0; FalseAnswers.length; i++) {
         FalseAnswers[i].style.backgroundColor = "red";
