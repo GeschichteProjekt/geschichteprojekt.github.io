@@ -42,8 +42,8 @@ class Quiz {
         LeftHeading.textContent = this.LeftHeading;
         CenterHeading.textContent = this.CenterHeading;
         RightHeading.textContent = this.RightHeading;
-        LeftText.textContent = this.LeftHeading;
-        CenterText.textContent = this.CenterHeading;
+        LeftText.textContent = this.LeftText;
+        CenterText.textContent = this.CenterText;
         RightText.textContent = this.RightText
         RightAnswer.textContent = this.RightAnswer
     }
