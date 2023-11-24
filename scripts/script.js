@@ -67,9 +67,9 @@ let TotalQuizCount = 2; //Ammount of Quizzes (up to 3)
 
 var CurrentQuiz;
 
-var FirstQuiz = new Quiz(OptionLeft, "Kenia war in den Jahren 1963 bis 2002 was?")
+var FirstQuiz = new Quiz(OptionLeft, "Kenia war in den Jahren 1963 bis 2002 was?");
 
-FirstQuiz.ActivateQuiz()
+FirstQuiz.ActivateQuiz();
 
 function RevealSolution() {
     RightAnswer.style.backgroundColor = "green";
