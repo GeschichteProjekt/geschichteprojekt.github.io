@@ -61,9 +61,9 @@ class Quiz {
     }
 }
 
-var RightAnswer = OptionCenter;
+/*var RightAnswer = OptionCenter;
 let FalseAnswers = [];
-let TotalQuizCount = 2; //Ammount of Quizzes (up to 3)
+let TotalQuizCount = 2; //Ammount of Quizzes (up to 3)*/
 
 var CurrentQuiz;
 
@@ -83,10 +83,12 @@ var FirstQuiz = new Quiz(OptionLeft,
 //QUIZ AREA
 //QUIZ AREA
 
+CurrentQuiz = FirstQuiz
+
 FirstQuiz.ActivateQuiz();
 
 function RevealSolution() {
-    RightAnswer.style.backgroundColor = "green";
+    CurrentQuiz.RightAnswer.style.backgroundColor = "green";
     for (i = 0; FalseAnswers.length; i++) {
         FalseAnswers[i].style.backgroundColor = "red";
     }
