@@ -61,7 +61,7 @@ class Quiz {
     }
 }
 
-/*var RightAnswer = OptionCenter;
+var RightAnswer;
 let FalseAnswers = [];
 let TotalQuizCount = 2; //Ammount of Quizzes (up to 3)*/
 
