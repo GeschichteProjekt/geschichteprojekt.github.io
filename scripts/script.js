@@ -8,6 +8,9 @@ let ButtonRight = document.getElementById("ButtonRight");
 
 let RightAnswer = OptionCenter;
 let FalseAnswers = [];
+let TotalQuizCount = 3; //Ammount of Quizzes
+
+let ActiveQuizNubmer = 0;
 
 function RevealSolution() {
     RightAnswer.style.backgroundColor = "green";
