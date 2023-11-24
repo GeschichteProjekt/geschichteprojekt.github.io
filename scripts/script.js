@@ -45,7 +45,7 @@ class Quiz {
         LeftText.textContent = this.LeftText;
         CenterText.textContent = this.CenterText;
         RightText.textContent = this.RightText;
-        RightAnswer = this.RightAnswer
+        RightAnswer = this.RightAnswer;
     }
     
     GetQuizInfo() {
@@ -83,7 +83,7 @@ var FirstQuiz = new Quiz(OptionLeft,
 //QUIZ AREA
 //QUIZ AREA
 
-CurrentQuiz = FirstQuiz
+CurrentQuiz = FirstQuiz;
 
 FirstQuiz.ActivateQuiz();
 
