@@ -11,6 +11,7 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
+    background-color: #B4E051;
 }
 
 .left-image,
