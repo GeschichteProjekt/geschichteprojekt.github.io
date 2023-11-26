@@ -19,6 +19,16 @@ body {
     order: 2;
 }
 
+#leftImageContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#rightImageContainer {
+    display: flex;
+    flex-direction: column;;
+}
+
 .leftImage {
     text-align: left;
     max-width: 300px;
