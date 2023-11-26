@@ -19,6 +19,10 @@ body {
     text-align: left;
 }
 
+.rightAlignImage {
+    text-align: right;
+}
+
 h1 {
     color: #333;
     text-align: center;
