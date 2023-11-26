@@ -22,11 +22,13 @@ body {
 #leftImageContainer {
     display: flex;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 #rightImageContainer {
     display: flex;
-    flex-direction: column;;
+    flex-direction: column;
+    margin-top: 50px;
 }
 
 .leftImage {
