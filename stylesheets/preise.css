@@ -16,6 +16,7 @@ body {
 .left-image,
 .right-image {
     flex: 1;
+    max-width: 200px;
 }
 
 .left-image img,
