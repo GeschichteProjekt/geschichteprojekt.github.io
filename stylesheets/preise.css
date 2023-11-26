@@ -6,13 +6,29 @@ body {
 }
 
 .prizes-container {
-    width: 80%;
-    max-width: 600px;
-    margin: 50px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
     padding: 20px;
-    background-color: #B4E051; /* Green decorative color */
+}
+
+.left-image,
+.right-image {
+    flex: 1;
+}
+
+.left-image img,
+.right-image img {
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.center-content {
+    flex: 2;
+    max-width: 600px;
+    margin: 0 20px;
 }
 
 h1 {
