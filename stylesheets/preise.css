@@ -15,14 +15,6 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-.leftAlignImage {
-    text-align: left;
-}
-
-.rightAlignImage {
-    text-align: right;
-}
-
 h1 {
     color: #333;
     text-align: center;
