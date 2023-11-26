@@ -4,6 +4,8 @@ body {
     padding: 0;
     background-color: #fff; /* White background */
     justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
 }
 
 .prizes-container {
@@ -14,16 +16,19 @@ body {
     background-color: #B4E051; /* Green decorative color */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    order: 2;
 }
 
 .leftImage {
     text-align: left;
     max-width: 150px;
+    order: 1;
 }
 
 .rightImage {
     text-align: right;
     max-width: 150px;
+    order: 2;
 }
 
 h1 {
