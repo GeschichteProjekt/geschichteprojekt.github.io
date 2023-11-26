@@ -22,14 +22,14 @@ body {
 .leftImage {
     text-align: left;
     max-width: 300px;
-    height: auto;
+    max-height: 600px;
     order: 1;
 }
 
 .rightImage {
     text-align: right;
     max-width: 300px;
-    height: auto;
+    max-height: 600px;
     order: 3;
 }
 
