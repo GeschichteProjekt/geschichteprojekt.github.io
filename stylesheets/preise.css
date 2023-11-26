@@ -13,6 +13,7 @@ body {
     background-color: #B4E051; /* Green decorative color */
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: inline;
 }
 
 .leftImage {
