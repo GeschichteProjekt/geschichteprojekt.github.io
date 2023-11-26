@@ -17,10 +17,12 @@ body {
 
 .leftImage {
     text-align: left;
+    max-width: 150px;
 }
 
 .rightImage {
     text-align: right;
+    max-width: 150px;
 }
 
 h1 {
