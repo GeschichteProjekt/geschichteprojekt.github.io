@@ -15,6 +15,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.leftImage {
+    text-align: left;
+}
+
+.rightImage {
+    text-align: right;
+}
+
 h1 {
     color: #333;
     text-align: center;
