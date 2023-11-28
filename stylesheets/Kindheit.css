@@ -54,6 +54,11 @@ button {
     width: 45%;
 }
 
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
 h2 {
     color: #1E5B0F;
     margin-bottom: 15px;
