@@ -24,6 +24,7 @@ body {
     flex-direction: column;
     margin: 50px;
     order: 1;
+    justify-content: space-evenly;
 }
 
 #rightImageContainer {
@@ -31,6 +32,7 @@ body {
     flex-direction: column;
     margin: 50px;
     order: 3;
+    justify-content: space-evenly;
 }
 
 .leftImage {
