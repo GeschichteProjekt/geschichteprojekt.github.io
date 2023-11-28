@@ -30,3 +30,37 @@ button {
     background-color: #50d8d7;
     border-radius: 25px;
   } 
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #B4E051;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.section {
+    width: 45%;
+}
+
+h2 {
+    color: #1E5B0F;
+    margin-bottom: 15px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
