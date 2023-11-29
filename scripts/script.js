@@ -48,6 +48,7 @@ class Quiz {
         CenterText.textContent = this.CenterText;
         RightText.textContent = this.RightText;
         RightAnswer = this.RightAnswer;
+        LeftHeading.
     }
     
     GetQuizInfo() {
@@ -92,13 +93,14 @@ var SecondQuiz = new  Quiz(OptionRight, 1,
 //QUIZ AREA
 //QUIZ AREA
 
-var CurrentQuiz = 0;
-
 FirstQuiz.ActivateQuiz();
 
+var CurrentQuizNumber = 0;
 QuizArray = [FirstQuiz, SecondQuiz];
+var CurrentQuiz = QuizArray[CurrentQuizNumber]
+
 function ActiveNextQuiz() {
-    CurrentQuiz += CurrentQuiz;
+    CurrentQuizNumber += CurrentQuizNumber;
     QuizArray[CurrentQuiz].ActivateQuiz();
     console.log("uwu (i hate myself)")
 }
