@@ -100,6 +100,7 @@ QuizArray = [FirstQuiz, SecondQuiz];
 function ActiveNextQuiz() {
     CurrentQuiz += CurrentQuiz;
     QuizArray[CurrentQuiz].ActivateQuiz();
+    console.log("uwu (i hate myself)")
 }
 
 function RevealSolution() {
