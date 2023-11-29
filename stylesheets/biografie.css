@@ -3,9 +3,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #B4E051;
+    background-color: #f3f3f3;
     color: #333; /* Default text color */
-    display: flex;
 }
 
 
@@ -44,7 +43,7 @@ ul li {
     margin: 5px 0;
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: #B4E051; /* Default background color for list items */
+    background-color: #f9f9f9; /* Default background color for list items */
 }
 
 /* Alternate background colors for list items */
