@@ -7,6 +7,12 @@ body {
     color: #333; /* Default text color */
 }
 
+
+head {
+  display: flex;
+}
+
+
 /* Styling for main headings */
 h1 {
     text-align: center;
