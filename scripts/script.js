@@ -48,7 +48,9 @@ class Quiz {
         CenterText.textContent = this.CenterText;
         RightText.textContent = this.RightText;
         RightAnswer = this.RightAnswer;
-        LeftHeading.
+        OptionLeft.style.backgroundColor = "white";
+        OptionCenter.style.backgroundColor = "white";
+        OptionRight.style.backgroundColor = "white";
     }
     
     GetQuizInfo() {
@@ -100,16 +102,35 @@ QuizArray = [FirstQuiz, SecondQuiz];
 var CurrentQuiz = QuizArray[CurrentQuizNumber]
 
 function ActiveNextQuiz() {
-    CurrentQuizNumber += CurrentQuizNumber;
-    QuizArray[CurrentQuiz].ActivateQuiz();
+    CurrentQuizNumber = CurrentQuizNumber + 1;
+    CurrentQuiz = QuizArray[CurrentQuizNumber];
+    CurrentQuiz.ActivateQuiz();
+    RightAnswer = CurrentQuiz.RightAnswer;
+    FalseAnswers = []
     console.log("uwu (i hate myself)")
+    console.log("CurrentQuizNumber: " + CurrentQuizNumber);
 }
 
 function RevealSolution() {
-    console.log(CurrentQuiz.RightAnswer.style.backgroundColor)
+    console.log(CurrentQuiz.RightAnswer.style.backgroundColor);
+    ActualizeFalseAnswers();
     CurrentQuiz.RightAnswer.style.backgroundColor = "green";
     for (i = 0; FalseAnswers.length; i++) {
         FalseAnswers[i].style.backgroundColor = "red";
+    }
+}
+
+function ActualizeFalseAnswers() {
+    switch (CurrentQuiz.RightAnswer) {
+        case OptionLeft:
+            FalseAnswers.push(OptionCenter, OptionRight);
+            break;
+        case OptionCenter:
+            FalseAnswers.push(OptionLeft, OptionRight);
+            break;
+        case OptionRight:
+            FalseAnswers.push(OptionCenter, OptionLeft);
+            break;
     }
 }
 
@@ -117,16 +138,3 @@ ButtonRight.addEventListener("click", RevealSolution);
 ButtonCenter.addEventListener("click", RevealSolution);
 ButtonLeft.addEventListener("click", RevealSolution);
 NextQuizButton.addEventListener("click", ActiveNextQuiz);
-
-
-switch (RightAnswer) {
-    case OptionLeft:
-        FalseAnswers.push(OptionCenter, OptionRight);
-        break;
-    case OptionCenter:
-        FalseAnswers.push(OptionLeft, OptionRight);
-        break;
-    case OptionRight:
-        FalseAnswers.push(OptionCenter, OptionLeft);
-        break;
-}
