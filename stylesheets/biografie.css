@@ -8,9 +8,7 @@ body {
 }
 
 
-head {
-  display: flex;
-}
+
 
 
 /* Styling for main headings */
@@ -21,6 +19,7 @@ h1 {
     padding: 20px;
     margin: 0;
     border-bottom: 3px solid #82B541;
+    display: inline;
 }
 
 /* Styling for secondary headings */
@@ -82,6 +81,7 @@ button {
   .button-three {
     background-color: #B4E051;
     border-radius: 10px;
+    display: inline;
     
   }
   
