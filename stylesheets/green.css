@@ -55,6 +55,26 @@ p {
     text-align: center;
     margin: 0 auto;
 }
+
+details {
+  border: 5px solid #1fa31f;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: bold;
+  list-style: none;
+}
+
+details p {
+  margin-bottom: 8px;
+}
+
+details[open] {
+  background-color: #1fa31f;
+}
+
+
 button {
     height: 50px;
     width: 50px;
