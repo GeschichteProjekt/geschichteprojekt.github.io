@@ -1,40 +1,39 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    color: #000;
-    margin: 0;
-    padding: 0;
-  }
-  
-  .container {
-    max-width: 800px;
-    margin: 50px auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    background-color: #4caf50; /* Hintergrundfarbe festlegen */
-    border-top-left-radius: 50px;
-    border-bottom-right-radius: 50px;
-  }
-  
-  .section {
-    margin-bottom: 20px;
-  }
-  
-  .title {
-    background-color: #B4E051; /* Titel-Hintergrundfarbe festlegen */
-    color: #fff; /* Titel-Textfarbe festlegen */
-    padding: 10px;
-  }
-  
-  .content {
-    background-color: #EDF8E1; /* Inhalt-Hintergrundfarbe festlegen */
-    padding: 15px;
-    border-radius: 5px;
-  }
-  
-  .content p {
-    margin: 0; /* Entferne Standardabstand vom Text */
-  }
-  
-  /* Weitere Stile können nach Bedarf hinzugefügt werden */
-  
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff; /* Set your background color */
+  color: #000000; /* Set your default text color */
+}
+
+header {
+  background-color: #B4E051; /* Set your decorative color for the header */
+  padding: 20px;
+  text-align: center; /* Center text in the header */
+}
+
+h1 {
+  color: #333333; /* Set your heading color */
+  text-align: center; /* Center text in the main heading */
+}
+
+.decorative-box {
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+h2.green-text {
+  background-color: #B4E051; /* Set your green background color for interheadings */
+  color: #ffffff; /* Set white text color for interheadings */
+  padding: 10px; /* Add padding to make it visually appealing */
+  margin-bottom: 10px; /* Add margin to separate headings from text */
+}
+
+p {
+  background-color: #ffffff; /* Set your white background color for text */
+  line-height: 1.5;
+  margin-bottom: 15px;
+  padding: 10px; /* Add padding to make it visually appealing */
+  text-align: left; /* Align text in the paragraphs to the left */
+}
