@@ -36,18 +36,6 @@ body {
     justify-content: space-evenly;
 }
 
-.leftImage {
-    text-align: left;
-    max-width: 300px;
-    max-height: 600px;
-}
-
-.rightImage {
-    text-align: right;
-    max-width: 300px;
-    max-height: 600px;
-}
-
 h1 {
     color: #333;
     text-align: center;
@@ -65,6 +53,33 @@ li {
     background-color: #fff; /* White background for each prize item */
     padding: 8px;
     border-radius: 4px;
+}
+
+#leftImageContainer img {
+  max-width: 400px;
+  border-end-end-radius: 100px;
+  border-start-start-radius: 100px;
+}
+
+#rightImageContainer img {
+  max-width: 400px;
+  border-end-start-radius: 100px;
+  border-start-end-radius: 100px;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+figcaption {
+  background-color: #B4E051;
+  padding: 10px;
+  max-width: 200px;
+  align-self: center;
+  border-radius: 20px;
+  margin: 30px;
 }
 
 button {
