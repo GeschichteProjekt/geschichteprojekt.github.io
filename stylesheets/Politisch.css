@@ -1,65 +1,55 @@
 body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #FFFFFF; /* Weißer Hintergrund */
-    color: #000000; /* Schwarzer Text */
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #000;
+  margin: 0;
+  padding: 0;
 }
 
 .container {
-    max-width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-
-header {
-    background-color: #B4E051; /* Grüner Hintergrund für den Header */
-    color: #FFFFFF; /* Weißer Text für den Header */
-    padding: 20px;
-    text-align: center;
-}
-
-div {
-    margin-bottom: 20px;
-    background-color: #F0F0F0; /* Hellgraues Hintergrund für die Div-Elemente */
-    border-radius: 100px;
-}
-
-footer {
-    background-color: #B4E051; /* Grüner Hintergrund für den Footer */
-    color: #FFFFFF; /* Weißer Text für den Footer */
-    padding: 10px;
-    text-align: center;
-}
-
-img {
-    display: inline;
-    order: 2;
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: green; /* Set background color */
+  border-end-start-radius: 50px;
+  border-top-right-radius: 50px;
 }
 
 details {
-    max-width: 100%;
-  }
-  
-  summary {
-    cursor: pointer;
-    font-weight: bold;
-    list-style: none;
-    background-color: rgba(181, 224, 81, 0.753);
-    color: #fff;
-    padding: 10px;
-    margin: 0;
-    height: 50%;
-  }
-  
-  details p {
-    margin-bottom: 8px;
-    max-width: 50%;
-    display: inline;
-  }
-  
-  details[open] {
-    background-color: #1fa31f;
-    display: flex;
-    flex-direction: row;
-  }
+  margin-bottom: 20px;
+}
+
+summary {
+  background-color: #B4E051; /* Set summary background color */
+  color: #fff; /* Set summary text color */
+  padding: 10px;
+  cursor: pointer;
+}
+
+p {
+  background-color: #EDF8E1; /* Set paragraph background color */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
+figure {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+figcaption {
+  display: block;
+  align-self: center;
+  background-color: #B4E051;
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+}
