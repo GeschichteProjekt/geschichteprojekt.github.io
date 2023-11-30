@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #4caf50; /* Hintergrundfarbe festlegen */
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+  }
+  
+  .section {
+    margin-bottom: 20px;
+  }
+  
+  .title {
+    background-color: #B4E051; /* Titel-Hintergrundfarbe festlegen */
+    color: #fff; /* Titel-Textfarbe festlegen */
+    padding: 10px;
+  }
+  
+  .content {
+    background-color: #EDF8E1; /* Inhalt-Hintergrundfarbe festlegen */
+    padding: 15px;
+    border-radius: 5px;
+  }
+  
+  .content p {
+    margin: 0; /* Entferne Standardabstand vom Text */
+  }
+  
+  /* Weitere Stile können nach Bedarf hinzugefügt werden */
+  
