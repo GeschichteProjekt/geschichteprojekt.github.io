@@ -1,39 +1,39 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-  background-color: #ffffff; /* Set your background color */
-  color: #000000; /* Set your default text color */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Set your background color */
+    color: #000000; /* Set your default text color */
 }
 
 header {
-  background-color: #B4E051; /* Set your decorative color for the header */
-  padding: 20px;
-  text-align: center; /* Center text in the header */
+    background-color: #B4E051; /* Set your decorative color for the header */
+    padding: 20px;
+    text-align: center; /* Center text in the header */
 }
 
 h1 {
-  color: #333333; /* Set your heading color */
-  text-align: center; /* Center text in the main heading */
+    color: #ffffff; /* Set your heading color */
+    text-align: center; /* Center text in the main heading */
 }
 
 .decorative-box {
-  padding: 20px;
-  margin: 10px;
-  border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
 }
 
 h2.green-text {
-  background-color: #B4E051; /* Set your green background color for interheadings */
-  color: #ffffff; /* Set white text color for interheadings */
-  padding: 10px; /* Add padding to make it visually appealing */
-  margin-bottom: 10px; /* Add margin to separate headings from text */
+    background-color: #B4E051; /* Set your green background color for interheadings */
+    color: #ffffff; /* Set white text color for interheadings */
+    padding: 10px; /* Add padding to make it visually appealing */
+    margin-bottom: 10px; /* Add margin to separate headings from text */
 }
 
 p {
-  background-color: #ffffff; /* Set your white background color for text */
-  line-height: 1.5;
-  margin-bottom: 15px;
-  padding: 10px; /* Add padding to make it visually appealing */
-  text-align: left; /* Align text in the paragraphs to the left */
+    background-color: #ffffff; /* Set your white background color for text */
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding: 10px; /* Add padding to make it visually appealing */
+    text-align: left; /* Align text in the paragraphs to the left */
 }
