@@ -31,6 +31,12 @@ p {
     padding: 10px;
 }
 
+img {
+  width: 500px;
+  height: auto;
+  border-top-left-radius: 1000px;
+}
+
 .info {
     width: 80%;
     margin: 20px auto;
