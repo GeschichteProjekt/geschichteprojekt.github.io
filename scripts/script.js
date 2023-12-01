@@ -92,7 +92,7 @@ var SecondQuiz = new  Quiz(OptionRight, 1,
     "Ihr Vater starb in ihrem frühen KindesAlter, da ein weißer ihn Erschoss. Ihre Mutter starb bei ihrer Geburt.",
     "Ihre Familie lebte auf einer Farm und lebte von ihren Feldfrüchten. Ihre Großmutter hatte einen großen Einfluss auf ihre Liebe für Kultur.")
 var ThirdQuiz = new Quiz(OptionRight, 2,
-    "Was war die Forderung des Green Belt Movements beim Protest un dem Uhuru Park",
+    "Was war die Forderung des Green Belt Movements beim Protest um dem Uhuru Park",
     "Abschaffung der Autokratie",
     "Kein Verkauf von öffentlichem Land im Karura Forest",
     "Freilassung politischer Häftlinge",
