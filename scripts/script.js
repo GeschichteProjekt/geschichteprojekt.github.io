@@ -92,11 +92,13 @@ var SecondQuiz = new  Quiz(OptionRight, 1,
     "Ihr Vater starb in ihrem frühen KindesAlter, da ein weißer ihn Erschoss. Ihre Mutter starb bei ihrer Geburt.",
     "Ihre Familie lebte auf einer Farm und lebte von ihren Feldfrüchten. Ihre Großmutter hatte einen großen Einfluss auf ihre Liebe für Kultur.")
 var ThirdQuiz = new Quiz(OptionRight, 2,
-    "Was war die Forderung des Green Belt Movements beim Protest um den Karura Forest",
+    "Was war die Forderung des Green Belt Movements beim Protest un dem Uhuru Park",
     "Abschaffung der Autokratie",
     "Kein Verkauf von öffentlichem Land im Karura Forest",
     "Freilassung politischer Häftlinge",
-    "Die Protestoren forderten, dass Wahlen gehalten, in denen Wahlen")
+    "Die Protestoren forderten, dass Wahlen gehalten werden, an denen mehere Parteien dran teil nehmen können, egal welche politische Sicht diese vertreten.",
+    "Die Protestoren forderten, dass kein öffentliches Land im Karura Forest verkauft wird.",
+    "Sie wollten, dass die, die für ihre politischen Meinungen verhaftet gewurden freigelassen werden.")
 //QUIZ AREA
 //QUIZ AREA
 //QUIZ AREA
@@ -104,7 +106,7 @@ var ThirdQuiz = new Quiz(OptionRight, 2,
 FirstQuiz.ActivateQuiz();
 
 var CurrentQuizNumber = 0;
-QuizArray = [FirstQuiz, SecondQuiz];
+QuizArray = [FirstQuiz, SecondQuiz, ThirdQuiz];
 var CurrentQuiz = QuizArray[CurrentQuizNumber]
 
 function ActiveNextQuiz() {
