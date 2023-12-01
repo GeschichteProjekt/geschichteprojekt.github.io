@@ -1,27 +1,23 @@
+@@ -1,110 +1,112 @@
 let OptionLeft = document.getElementById("option-container-left");
 let OptionCenter = document.getElementById("option-container-center");
 let OptionRight = document.getElementById("option-container-right");
-
 let ButtonLeft = document.getElementById("ButtonLeft");
 let ButtonCenter = document.getElementById("ButtonCenter");
 let ButtonRight = document.getElementById("ButtonRight");
 let NextQuizButton = document.getElementById("NextQuizButton");
-
 let Title = document.getElementById("quiz-title");
 let OptionHeadings = document.querySelectorAll(".option-heading");
 let OptionTexts = document.querySelectorAll(".option-text");
-
 let LeftHeading = OptionHeadings[0];
 let CenterHeading = OptionHeadings[1];
 let RightHeading = OptionHeadings[2];
-
 let LeftText = OptionTexts[0];
 let CenterText = OptionTexts[1];
 let RightText = OptionTexts[2];
 // [0] ist Links
 // [1] ist Mitte
 // [2] ist Rechts
-
 // RightAnswer Mandatory
 class Quiz {
     constructor(RightAnswer, TextNumber, QuizTitle = "Default", LeftHeading = "Default",
@@ -38,7 +34,6 @@ class Quiz {
                     this.RightText = RightText;
                     this.RightAnswer = RightAnswer;
                 }
-
     ActivateQuiz() {
         Title.textContent = this.QuizTitle;
         LeftHeading.textContent = this.LeftHeading;
@@ -65,13 +60,10 @@ class Quiz {
         }
     }
 }
-
 var RightAnswer;
 let FalseAnswers = [];
 let TotalQuizCount = 2; //Ammount of Quizzes (up to 3)*/
-
 var CurrentQuiz = 0;
-
 //QUIZ AREA
 //QUIZ AREA
 //QUIZ AREA
@@ -92,10 +84,12 @@ var SecondQuiz = new  Quiz(OptionRight, 1,
     "Ihr Vater starb in ihrem frühen KindesAlter, da ein weißer ihn Erschoss. Ihre Mutter starb bei ihrer Geburt.",
     "Ihre Familie lebte auf einer Farm und lebte von ihren Feldfrüchten. Ihre Großmutter hatte einen großen Einfluss auf ihre Liebe für Kultur.")
 var ThirdQuiz = new Quiz(OptionRight, 2,
-    "Was war die Forderung des Green Belt Movements beim Protest um dem Uhuru Park",
+    "Was war die Forderung des Green Belt Movements beim Protest um den Karura Forest",
+    "Was war die Forderung des Green Belt Movements beim Protest un dem Uhuru Park",
     "Abschaffung der Autokratie",
     "Kein Verkauf von öffentlichem Land im Karura Forest",
     "Freilassung politischer Häftlinge",
+    "Die Protestoren forderten, dass Wahlen gehalten, in denen Wahlen")
     "Die Protestoren forderten, dass Wahlen gehalten werden, an denen mehere Parteien dran teil nehmen können, egal welche politische Sicht diese vertreten.",
     "Die Protestoren forderten, dass kein öffentliches Land im Karura Forest verkauft wird.",
     "Sie wollten, dass die, die für ihre politischen Meinungen verhaftet gewurden freigelassen werden.")
@@ -106,18 +100,18 @@ var ThirdQuiz = new Quiz(OptionRight, 2,
 FirstQuiz.ActivateQuiz();
 
 var CurrentQuizNumber = 0;
+QuizArray = [FirstQuiz, SecondQuiz];
 QuizArray = [FirstQuiz, SecondQuiz, ThirdQuiz];
 var CurrentQuiz = QuizArray[CurrentQuizNumber]
 
 function ActiveNextQuiz() {
     CurrentQuizNumber = CurrentQuizNumber + 1;
     CurrentQuiz = QuizArray[CurrentQuizNumber];
-    RightAnswer = CurrentQuiz.RightAnswer;
     CurrentQuiz.ActivateQuiz();
+    RightAnswer = CurrentQuiz.RightAnswer;
     FalseAnswers = []
     console.log("CurrentQuizNumber: " + CurrentQuizNumber);
 }
-
 function RevealSolution() {
     console.log(CurrentQuiz.RightAnswer.style.backgroundColor);
     ActualizeFalseAnswers();
@@ -126,7 +120,6 @@ function RevealSolution() {
         FalseAnswers[i].style.backgroundColor = "red";
     }
 }
-
 function ActualizeFalseAnswers() {
     switch (CurrentQuiz.RightAnswer) {
         case OptionLeft:
@@ -140,7 +133,6 @@ function ActualizeFalseAnswers() {
             break;
     }
 }
-
 ButtonRight.addEventListener("click", RevealSolution);
 ButtonCenter.addEventListener("click", RevealSolution);
 ButtonLeft.addEventListener("click", RevealSolution);
