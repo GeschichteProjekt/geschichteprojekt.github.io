@@ -1,4 +1,3 @@
-@@ -1,110 +1,112 @@
 let OptionLeft = document.getElementById("option-container-left");
 let OptionCenter = document.getElementById("option-container-center");
 let OptionRight = document.getElementById("option-container-right");
