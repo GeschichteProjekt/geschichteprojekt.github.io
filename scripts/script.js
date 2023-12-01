@@ -112,7 +112,6 @@ var CurrentQuiz = QuizArray[CurrentQuizNumber]
 function ActiveNextQuiz() {
     CurrentQuizNumber = CurrentQuizNumber + 1;
     CurrentQuiz = QuizArray[CurrentQuizNumber];
-    CurrentQuiz.ActivateQuiz();
     RightAnswer = CurrentQuiz.RightAnswer;
     FalseAnswers = []
     console.log("CurrentQuizNumber: " + CurrentQuizNumber);
@@ -120,6 +119,9 @@ function ActiveNextQuiz() {
         window.location = "https://geschichteprojekt.github.io";
         console.log("CurrentQuizNumber: " + CurrentQuizNumber);
         console.log("QuizArray: " + QuizArray[CurrentQuizNumber]);
+    }
+    else if (CurrentQuizNumber <= QuizArray[CurrentQuizNumber]) {
+        CurrentQuiz.ActivateQuiz();
     }
 }
 
