@@ -96,13 +96,12 @@ var ThirdQuiz = new Quiz(OptionRight, 2,
 //QUIZ AREA
 //QUIZ AREA
 
-
+FirstQuiz.ActivateQuiz();
 
 var CurrentQuizNumber = 0;
 QuizArray = [FirstQuiz, SecondQuiz];
 QuizArray = [FirstQuiz, SecondQuiz, ThirdQuiz];
-var CurrentQuiz = QuizArray[CurrentQuizNumber];
-CurrentQuiz.ActivateQuiz();
+var CurrentQuiz = QuizArray[CurrentQuizNumber]
 
 function ActiveNextQuiz() {
     CurrentQuizNumber = CurrentQuizNumber + 1;
