@@ -112,8 +112,8 @@ var CurrentQuiz = QuizArray[CurrentQuizNumber]
 function ActiveNextQuiz() {
     CurrentQuizNumber = CurrentQuizNumber + 1;
     CurrentQuiz = QuizArray[CurrentQuizNumber];
-    CurrentQuiz.ActivateQuiz();
     RightAnswer = CurrentQuiz.RightAnswer;
+    CurrentQuiz.ActivateQuiz();
     FalseAnswers = []
     console.log("CurrentQuizNumber: " + CurrentQuizNumber);
 }
