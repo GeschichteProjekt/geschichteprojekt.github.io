@@ -118,6 +118,8 @@ function ActiveNextQuiz() {
     console.log("CurrentQuizNumber: " + CurrentQuizNumber);
     if (CurrentQuizNumber > QuizArray.length) {
         window.location = "https://geschichteprojekt.github.io";
+        console.log("CurrentQuizNumber: " + CurrentQuizNumber);
+        console.log("QuizArray: " + QuizArray[CurrentQuizNumber]);
     }
 }
 
