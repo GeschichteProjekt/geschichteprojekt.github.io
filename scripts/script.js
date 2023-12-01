@@ -116,6 +116,9 @@ function ActiveNextQuiz() {
     RightAnswer = CurrentQuiz.RightAnswer;
     FalseAnswers = []
     console.log("CurrentQuizNumber: " + CurrentQuizNumber);
+    if (CurrentQuizNumber > QuizArray.length) {
+        window.location = "https://geschichteprojekt.github.io";
+    }
 }
 
 function RevealSolution() {
