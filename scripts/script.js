@@ -112,7 +112,10 @@ function ActiveNextQuiz() {
     }
     CurrentQuiz.ActivateQuiz();
     RightAnswer = CurrentQuiz.RightAnswer;
-    FalseAnswers = []
+    FalseAnswers = [];
+    if (CurrentQuizNumber === TotalQuizAmmount) {
+        NextQuizButton.innerHTML = "Zurück zu Index.html";
+    }
     console.log("CurrentQuizNumber: " + CurrentQuizNumber);
 }
 function RevealSolution() {
