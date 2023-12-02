@@ -35,9 +35,9 @@ class Quiz {
                 }
     ActivateQuiz() {
         Title.textContent = this.QuizTitle;
-        LeftHeading.textContent = this.LeftHeading;
-        CenterHeading.textContent = this.CenterHeading;
-        RightHeading.textContent = this.RightHeading;
+        LeftHeading.textContent = "A) " + this.LeftHeading;
+        CenterHeading.textContent = "B) " + this.CenterHeading;
+        RightHeading.textContent = "C) " + this.RightHeading;
         LeftText.textContent = this.LeftText;
         CenterText.textContent = this.CenterText;
         RightText.textContent = this.RightText;
@@ -68,10 +68,10 @@ var CurrentQuiz = 0;
 //QUIZ AREA
 var FirstQuiz = new Quiz(OptionLeft, 0,
      "Kenia war in den Jahren 1963 bis 2002 was? (test)",
-     "Kolonalisiert (t)",
+     "Kolonalisiert",
      "Autokratisch",
      "Demokratisch",
-     " (t) Die Britten regierten Kenia und holzten Wälder rasant ab, Christianiserten die Bevölkerung und zerstörten die Kultur von Einheimischen.",
+     "Die Britten regierten Kenia und holzten Wälder rasant ab, Christianiserten die Bevölkerung und zerstörten die Kultur von Einheimischen.",
      "Kenia war in der Theorie ein Mehrparteienstaat, allerdings wurde Opposition unterdrückt, Wahlen fanden irregulär ab und Wahlbetrug war der standard.",
      "Parteien setzten sich friedlich auseinander, formten Koalition und Korruption war niedrig.");
 var SecondQuiz = new  Quiz(OptionRight, 1,
@@ -83,15 +83,13 @@ var SecondQuiz = new  Quiz(OptionRight, 1,
     "Ihr Vater starb in ihrem frühen KindesAlter, da ein weißer ihn Erschoss. Ihre Mutter starb bei ihrer Geburt.",
     "Ihre Familie lebte auf einer Farm und lebte von ihren Feldfrüchten. Ihre Großmutter hatte einen großen Einfluss auf ihre Liebe für Kultur.")
 var ThirdQuiz = new Quiz(OptionRight, 2,
-    "Was war die Forderung des Green Belt Movements beim Protest um den Karura Forest",
-    "Was war die Forderung des Green Belt Movements beim Protest un dem Uhuru Park",
-    "Abschaffung der Autokratie",
+    "Was war die Forderung des Green Belt Movements beim Protest um den Uhuru Park",
     "Kein Verkauf von öffentlichem Land im Karura Forest",
+    "Abschaffung der Autokratie",
     "Freilassung politischer Häftlinge",
-    "Die Protestoren forderten, dass Wahlen gehalten, in denen Wahlen",
-    "Die Protestoren forderten, dass Wahlen gehalten werden, an denen mehere Parteien dran teil nehmen können, egal welche politische Sicht diese vertreten.",
-    "Die Protestoren forderten, dass kein öffentliches Land im Karura Forest verkauft wird.",
-    "Sie wollten, dass die, die für ihre politischen Meinungen verhaftet gewurden freigelassen werden.")
+    "Die Regierung wollte (und fing auch an) Land in dem Karura Forest an Privatbesitzer zu verkaufen.",
+    "Die Protestoren forderten, dass Staatspräsident Daniel Arap Moi abtritt und neue Wahlen gehalten werden.",
+    "Sie wollten, dass Leute, die für ihre politische Meinungen inhaftiert wurden, freigelassen werden.")
 //QUIZ AREA
 //QUIZ AREA
 //QUIZ AREA
@@ -99,13 +97,22 @@ var ThirdQuiz = new Quiz(OptionRight, 2,
 FirstQuiz.ActivateQuiz();
 
 var CurrentQuizNumber = 0;
+var TotalQuizAmmount = 2;
 QuizArray = [FirstQuiz, SecondQuiz];
 QuizArray = [FirstQuiz, SecondQuiz, ThirdQuiz];
 var CurrentQuiz = QuizArray[CurrentQuizNumber]
 
 function ActiveNextQuiz() {
     CurrentQuizNumber = CurrentQuizNumber + 1;
-    CurrentQuiz = QuizArray[CurrentQuizNumber];
+    if (QuizArray[CurrentQuizNumber] === undefined) {
+        CurrentQuizNumber = TotalQuizAmmount
+    }
+    else if (CurrentQuizNumber > TotalQuizAmmount) {
+        window.location = "https://geschichteprojekt.github.io"
+    }
+    else {
+        CurrentQuiz = QuizArray[CurrentQuizNumber];
+    }
     CurrentQuiz.ActivateQuiz();
     RightAnswer = CurrentQuiz.RightAnswer;
     FalseAnswers = []
