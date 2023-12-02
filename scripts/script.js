@@ -88,7 +88,7 @@ var ThirdQuiz = new Quiz(OptionRight, 2,
     "Abschaffung der Autokratie",
     "Kein Verkauf von öffentlichem Land im Karura Forest",
     "Freilassung politischer Häftlinge",
-    "Die Protestoren forderten, dass Wahlen gehalten, in denen Wahlen")
+    "Die Protestoren forderten, dass Wahlen gehalten, in denen Wahlen"
     "Die Protestoren forderten, dass Wahlen gehalten werden, an denen mehere Parteien dran teil nehmen können, egal welche politische Sicht diese vertreten.",
     "Die Protestoren forderten, dass kein öffentliches Land im Karura Forest verkauft wird.",
     "Sie wollten, dass die, die für ihre politischen Meinungen verhaftet gewurden freigelassen werden.")
