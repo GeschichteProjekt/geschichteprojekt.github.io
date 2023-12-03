@@ -98,7 +98,6 @@ FirstQuiz.ActivateQuiz();
 
 var CurrentQuizNumber = 0;
 var TotalQuizAmmount = 2;
-QuizArray = [FirstQuiz, SecondQuiz];
 QuizArray = [FirstQuiz, SecondQuiz, ThirdQuiz];
 var CurrentQuiz = QuizArray[CurrentQuizNumber]
 

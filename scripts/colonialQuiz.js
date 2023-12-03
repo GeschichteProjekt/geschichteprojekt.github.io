@@ -81,9 +81,8 @@ var FirstQuiz = new Quiz(OptionCenter, 0,
 FirstQuiz.ActivateQuiz();
 
 var CurrentQuizNumber = 0;
-var TotalQuizAmmount = 2;
-QuizArray = [FirstQuiz, SecondQuiz];
-QuizArray = [FirstQuiz, SecondQuiz, ThirdQuiz];
+var TotalQuizAmmount = 0;
+QuizArray = [FirstQuiz];
 var CurrentQuiz = QuizArray[CurrentQuizNumber]
 
 function ActiveNextQuiz() {
