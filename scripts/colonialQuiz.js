@@ -74,6 +74,22 @@ var FirstQuiz = new Quiz(OptionCenter, 0,
                         "Die britische Krone interessierte es nicht, ob die Kenianer*innen ihre Kultur ausüben oder nicht, sondern kümmerten sich nur darum, dass die Kolonie genügend produziert.",
                         "Die Britten versuchten, die Kenianer*innen zum Christentum zu konvertieren sowie ihre Kultur so zu formen, dass sie mehr zum Westen passt (oft um wirtschaftliche Profite zu erhöhen).",
                         "Die Britten begangen einen Industriellen Völkermord an den Einheimischen Ethnien Kenia's mit dem Ziel, diese Komplett auszulöschen, damit Kenia ein Land der Weißen wird.")
+var SecondQuiz = new Quiz(OptionLeft, 1,
+                        "Wangari Maathai versuchte...",
+                        "Legal zu bleiben damit die Regierung sie nicht einsperrt",
+                        "Versteckt Illegale aktivitäten wie z.B. das Töten von Poltikern durchzuführen",
+                        "Mit ihren illegan Aktivitäten auf ihre Proteste aufmerksam zu machen",
+                        "Hätte sie etwas illegales gemacht, hätte die Regierung einen Grund sie zu verhaften oder sogar zu töten.",
+                        "Sie war der Meinung, das Gewalt nötig ist um die Autokratie abzuschaffen, allerdings dürfte die Regierung sie nicht dabei erwischen, weil sie dadurch ihre Verhaftung oder sogar tötung riskieren würde.",
+                        "Wangari Maathai's Ziel war es, so viele Leute wie möglich aufmerksam auf ihre Protestaktionen zu machen, und es war sehr leicht mit illegalen Aktivitäten in die Medien zu gelangen.")
+var ThirdQuiz = new Quiz(OptionCenter, 2,
+                        "Wangari Maathai versuchte in der Wahl von 2002...",
+                        "Die Wahl mit ihrer eigenen Partei zu gewinnen",
+                        "Die Opposition der KANU zu vereinigen",
+                        "Die Wahl zu verhindern",
+                        "Wangari Maathai wollte mit ihrer 'Green Party of Kenia' die Wahl mit einer Überlegenheit von 51% gewinnen",
+                        "Sie trug dazu bei, dass sich die Rainbow Coalition formt, wodurch mehrere Liberale Parteien die KANU ablösen konnten.",
+                        "Sie forderte, dass die KANU nicht mehr in Wahlen beteiligt werden darf und griff zu illegalen Mitteln um diese zu erreichen.")
 //QUIZ AREA
 //QUIZ AREA
 //QUIZ AREA
@@ -81,9 +97,9 @@ var FirstQuiz = new Quiz(OptionCenter, 0,
 FirstQuiz.ActivateQuiz();
 
 var CurrentQuizNumber = 0;
-var TotalQuizAmmount = 0;
-QuizArray = [FirstQuiz];
-var CurrentQuiz = QuizArray[CurrentQuizNumber]
+var TotalQuizAmmount = 2;
+QuizArray = [FirstQuiz, SecondQuiz, ThirdQuiz];
+var CurrentQuiz = QuizArray[CurrentQuizNumber];
 
 function ActiveNextQuiz() {
     CurrentQuizNumber = CurrentQuizNumber + 1;
