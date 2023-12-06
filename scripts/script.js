@@ -136,7 +136,7 @@ var CurrentQuiz = QuizArray[CurrentQuizNumber];
 function ActiveNextQuiz() {
     CurrentQuizNumber = CurrentQuizNumber + 1;
     if (CurrentQuizNumber > TotalQuizAmmount) {
-        window.location = "../scripts/index.html"
+        window.location = "https://geschichteprojekt.github.io/"
     }
     else {
         CurrentQuiz = QuizArray[CurrentQuizNumber];
