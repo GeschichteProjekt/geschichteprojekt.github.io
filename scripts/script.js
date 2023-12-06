@@ -136,7 +136,7 @@ var CurrentQuiz = QuizArray[CurrentQuizNumber];
 function ActiveNextQuiz() {
     CurrentQuizNumber = CurrentQuizNumber + 1;
     if (CurrentQuizNumber > TotalQuizAmmount) {
-        window.location = "https://geschichteprojekt.github.io"
+        window.location = "../scripts/index.html"
     }
     else {
         CurrentQuiz = QuizArray[CurrentQuizNumber];
@@ -149,6 +149,7 @@ function ActiveNextQuiz() {
     }
     console.log("CurrentQuizNumber: " + CurrentQuizNumber);
 }
+
 function RevealSolution() {
     console.log(CurrentQuiz.RightAnswer.style.backgroundColor);
     ActualizeFalseAnswers();
@@ -157,6 +158,7 @@ function RevealSolution() {
         FalseAnswers[i].style.backgroundColor = "red";
     }
 }
+
 function ActualizeFalseAnswers() {
     switch (CurrentQuiz.RightAnswer) {
         case OptionLeft:
@@ -170,6 +172,7 @@ function ActualizeFalseAnswers() {
             break;
     }
 }
+
 ButtonRight.addEventListener("click", RevealSolution);
 ButtonCenter.addEventListener("click", RevealSolution);
 ButtonLeft.addEventListener("click", RevealSolution);
