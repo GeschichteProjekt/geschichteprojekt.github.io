@@ -1,0 +1,10 @@
+Rollen:
+Wangari Maathai
+Reporter
+Protestor
+Lehrer
+Student
+Politiker
+Priester
+Quiz-Master
+Quiz-Teilnehmer
