@@ -1,6 +1,6 @@
 Rollen:
 Wangari Maathai (erik)
-Reporter
+Reporter (stift, block) (alle 3)
 Protestor
 Lehrer (erik)
 Student

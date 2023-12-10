@@ -66,7 +66,7 @@ var CurrentQuiz = 0;
 //QUIZ AREA
 //QUIZ AREA
 //QUIZ AREA
-var FirstQuiz = new Quiz(OptionLeft, 0,
+var FirstQuiz = new Quiz(OptionCenter, 0,
      "Kenia war in den Jahren 1963 bis 2002 was? (test)",
      "Kolonalisiert",
      "Autokratisch",
