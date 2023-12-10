@@ -79,6 +79,20 @@ details[open] {
   background-color: #1fa31f;
 }
 
+video {
+  border: 5px solid #00ff00;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 50px;
+  background-color: #B4E051;
+  border-radius: 20px;
+}
+
+.VideoSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
 
 button {
     height: 50px;

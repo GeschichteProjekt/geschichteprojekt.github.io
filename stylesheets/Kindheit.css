@@ -78,3 +78,16 @@ p {
     text-align: justify;
     padding: 0px;
 }
+
+video {
+  border: 5px solid #00ff00;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 50px;
+}
+
+.VideoSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}

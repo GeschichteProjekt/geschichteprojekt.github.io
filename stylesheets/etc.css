@@ -46,6 +46,20 @@ img {
     border-top-left-radius: 150px;
 }
 
+.audiosection {
+  display: flex;
+  justify-content: row;
+  align-items: center;
+}
+
+audio {
+  width: 100%;
+      background-color: #B4E051;
+      border-radius: 50px;
+      padding: 10px;
+      outline: none;
+}
+
 button {
     height: 50px;
     width: 50px;
@@ -77,4 +91,4 @@ button {
   .button-five {
     background-color: #50d8d7;
     border-radius: 25px;
-  } 
+  }
