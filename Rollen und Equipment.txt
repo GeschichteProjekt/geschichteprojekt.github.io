@@ -1,10 +1,11 @@
 Rollen:
-Wangari Maathai
+Wangari Maathai (erik)
 Reporter
 Protestor
-Lehrer
+Lehrer (erik)
 Student
 Politiker
 Priester
 Quiz-Master
 Quiz-Teilnehmer
+Podcast-Moderator
