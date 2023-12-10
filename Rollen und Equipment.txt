@@ -1,11 +1,11 @@
 Rollen:
-Wangari Maathai (erik)
+Wangari Maathai (kopftuch) (erik)
 Reporter (stift, block) (alle 3)
-Protestor
-Lehrer (erik)
-Student
-Politiker
-Priester
-Quiz-Master
-Quiz-Teilnehmer
-Podcast-Moderator
+Protestor (protest schild oder so) (martin nico)
+Lehrer (krawatte) (erik)
+Student (stift, block) (martin, niko)
+Politiker (krawatte) (erik)
+Priester (christliches kreuz) (martin)
+Quiz-Master (krawatte) (erik)
+Quiz-Teilnehmer (kein equipment) (alle 3)
+Podcast-Moderator (kein equipment) (alle 3)
