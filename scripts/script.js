@@ -76,7 +76,7 @@ var FirstQuiz = new Quiz(OptionCenter, 0,
      "Parteien setzten sich friedlich auseinander, formten Koalition und Korruption war niedrig.");
 var SecondQuiz = new  Quiz(OptionRight, 1,
     "Wangari Maathai's Familie war...",
-    "Wohhabend",
+    "Wohlabend",
     "Tot",
     "Landwirtschaftlich geprägt",
     "Ihre Familie hatte ein großes Einkommen, ein Massives Haus in der Hauptstadt Nairobi und genossen ein hohes Ansehen.",
